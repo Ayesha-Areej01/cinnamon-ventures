@@ -64,13 +64,13 @@ export const MATERIALS = {
             label: "Plastic",
             value: "plastic",
             description: "undefined",
-            price: PRODUCT_PRICES.material.silicone
+            price: PRODUCT_PRICES.material.plastic
         },
         {
             label: "Glass",
             value: "glass",
             description: "beautiful bottle",
-            price: PRODUCT_PRICES.material.polycarbonate
+            price: PRODUCT_PRICES.material.glass
         },
 
     ],
