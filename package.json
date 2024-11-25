@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.3.4",
+    "@lucide/lab": "^0.1.2",
     "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-form": "^0.1.0",
     "@radix-ui/react-popover": "^1.1.2",
     "@radix-ui/react-slot": "^1.1.0",
     "@sanity/icons": "^3.4.0",
@@ -28,6 +30,7 @@
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "sanity": "^3.64.1",
     "stripe": "^17.4.0",
+    "stripe-cli": "^0.1.0",
     "styled-components": "^6.1.13",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",

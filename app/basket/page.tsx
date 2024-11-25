@@ -43,6 +43,7 @@ function BasketPage() {
     if (!isSignedIn) return;
     setIsLoading(true);
    try {
+    
     const metadata : Metadata = {
         orderNumber: crypto.randomUUID(),
         customerName: user?.fullName ?? "Unkonwn",
@@ -112,6 +113,7 @@ function BasketPage() {
                         </span>
                     </p>
                 </div>
+                
 
                 {isSignedIn ? (
                     <button
