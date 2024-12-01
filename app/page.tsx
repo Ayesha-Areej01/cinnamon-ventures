@@ -26,7 +26,7 @@ export default async function Home() {
     <div>
     <WhiteFridayBanner/>
 
-    <div className='bg-[#A5B68D]'>
+    <div className='bg-[#A5B68D] selection:bg-[#ECDFCC]'>
       <section>
         <MaxWidthWrapper className='pb-24 pt-10 lg:grid lg:grid-cols-3 sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pt-24 xl:pt-32 lg:pb-52'>
           <div className='col-span-2 px-6 lg:px-0 lg:pt-4'>
@@ -35,7 +35,7 @@ export default async function Home() {
                 <div className='absolute inset-x-0 bottom-0  h-28' />
                 {/* <img src='/snake-1.png' className='w-full' alt="snake" /> */}
               </div>
-              <h1 className='relative w-fit tracking-tight text-balance mt-0 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl'>
+              <h1 className='relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl'>
                 Dicover the Power of{' '}
                 <span className='bg-green-500 px-2 text-white'>Nature</span>{' '}
                 in Every Wash
@@ -116,7 +116,7 @@ export default async function Home() {
         </MaxWidthWrapper>
       </section>
 
-      <section className='bg-[#ECDFCC] py-24'>
+      <section className='bg-[#efd4ac] py-24'>
       <MaxWidthWrapper className='flex flex-col items-center gap-16 sm:gap-32'>
       <div className='flex flex-col lg:flex-row items-center gap-4 sm:gap-6'>
             <h2 className='order-1 mt-2 tracking-tight text-center text-balance !leading-tight font-bold text-5xl md:text-6xl text-gray-900'>
@@ -231,7 +231,7 @@ export default async function Home() {
 
       </section>
       </div>
-      <section className="bg-[#e7a27f]">
+      <section className="bg-[#e7a27f] selection:bg-[#efd0a2]">
 
     <Contact/>
     </section>

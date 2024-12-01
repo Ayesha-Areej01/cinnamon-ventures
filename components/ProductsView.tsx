@@ -24,4 +24,4 @@ const ProductsView = ({ products, categories }: ProductsViewProps) => {
     </div>
   );
 };
-export default ProductsView;
+export default ProductsView; 
