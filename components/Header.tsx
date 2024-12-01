@@ -24,7 +24,7 @@ function Header() {
   }
 
   return (
-    <header className="flex flex-wrap justify-between items-center px-4 py-2 sticky z-[100] h-30 inset-x-0 top-0 w-full border-b border-gray-200 bg-white/50 backdrop-blur-lg transition-all">
+    <header className="flex flex-wrap justify-between items-center px-4 py-2 sticky z-[100] h-30 inset-x-0 top-0 w-full border-b border-gray-200 bg-white/50 backdrop-blur-lg transition-all bg-[#FCFAEE]">
       <div className="flex w-full flex-wrap justify-between items-center">
         <Link
           href="/"
@@ -43,7 +43,7 @@ function Header() {
             type="text"
             name="query"
             placeholder="Search products"
-            className="bg-gray-100 text-gray-800 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border w-full max-w-4xl"
+            className="grainy-light text-gray-800 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border w-full max-w-4xl"
           />
         </Form>
 
