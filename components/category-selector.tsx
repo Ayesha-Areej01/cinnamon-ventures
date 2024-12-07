@@ -39,7 +39,7 @@ export function CategorySelectorComponent({
         variant="outline"
         role="combobox"
         aria-expanded={open}
-        className="w-[260px] sm:w-[560px] max-w-full relative justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-green-500 hover:bg-green-700 hover:text-white text-white font-bold py-2 px-4 mx-4 rounded"
+        className="w-[260px] sm:w-[560px] max-w-full relative justify-center sm:justify-start sm:flex-none items-center space-x-2 bg-[#ddbb87] hover:bg-[#d1a35e] hover:text-white text-white font-bold py-2 px-4 mx-4 rounded"
       >
         {value
           ? categories.find((category) => category._id === value)?.title
@@ -47,8 +47,8 @@ export function CategorySelectorComponent({
         <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 "/>
       </Button>
     </PopoverTrigger>
-    <PopoverContent className="w-full p-1 mx-2 bg-green-200">
-      <Command className="bg-green-400">
+    <PopoverContent className="w-full p-1 mx-2 bg-[#ddbb87]">
+      <Command className="bg-[#ddbb87]">
         <CommandInput
           placeholder="Search category..."
           className="h-9"

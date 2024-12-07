@@ -26,18 +26,18 @@ export default async function Home() {
     <div>
     <WhiteFridayBanner/>
 
-    <div className='bg-[#A5B68D] selection:bg-[#ECDFCC]'>
+    <div className='bg-[#A5B68D] selection:bg-[#fefefe]'>
       <section>
         <MaxWidthWrapper className='pb-24 pt-10 lg:grid lg:grid-cols-3 sm:pb-32 lg:gap-x-0 xl:gap-x-8 lg:pt-24 xl:pt-32 lg:pb-52'>
           <div className='col-span-2 px-6 lg:px-0 lg:pt-4'>
             <div className='relative mx-auto text-center lg:text-left flex flex-col items-center lg:items-start'>
               <div className='absolute w-28 left-0 -top-20 hidden lg:block'>
                 <div className='absolute inset-x-0 bottom-0  h-28' />
-                {/* <img src='/snake-1.png' className='w-full' alt="snake" /> */}
+                {/* <img src='/snake-1.jpg' className='w-full' alt="snake" /> */}
               </div>
-              <h1 className='relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl'>
+              <h1 className='relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-800 text-5xl md:text-6xl lg:text-7xl '>
                 Dicover the Power of{' '}
-                <span className='bg-green-500 px-2 text-white'>Nature</span>{' '}
+                <span className=' px-2 text-[#384f16]'>Nature</span>{' '}
                 in Every Wash
               </h1>
               <p className='mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap'>
@@ -47,14 +47,14 @@ export default async function Home() {
               <ul className='mt-8 space-y-2 text-left font-medium flex flex-col items-center sm:items-start'>
                 <div className='space-y-2'>
                   <li className='flex gap-1.5 items-center text-left'>
-                    <Check className='h-5 w-5 shrink-0 text-green-600' />
+                    <Check className='h-5 w-5 shrink-0 text-[#384f16]' />
                     Non-drying and gentle on the skin
                   </li>
                   <li className='flex gap-1.5 items-center text-left'>
-                    <Check className='h-5 w-5 shrink-0 text-green-600' />Made with simple, natural ingredients
+                    <Check className='h-5 w-5 shrink-0 text-[#384f16]' />Made with simple, natural ingredients
                   </li>
                   <li className='flex gap-1.5 items-center text-left'>
-                    <Check className='h-5 w-5 shrink-0 text-green-600' />
+                    <Check className='h-5 w-5 shrink-0 text-[#384f16]' />
                     Consumes less water than gel-based soaps 
                   </li>
                 </div>
@@ -90,11 +90,11 @@ export default async function Home() {
 
                 <div className='flex flex-col justify-between items-center sm:items-start'>
                   <div className='flex gap-0.5'>
-                    <Star className='h-4 w-4 text-green-600 fill-green-600' />
-                    <Star className='h-4 w-4 text-green-600 fill-green-600' />
-                    <Star className='h-4 w-4 text-green-600 fill-green-600' />
-                    <Star className='h-4 w-4 text-green-600 fill-green-600' />
-                    <Star className='h-4 w-4 text-green-600 fill-green-600' />
+                    <Star className='h-4 w-4 text-[#384f16] fill-[#384f16]' />
+                    <Star className='h-4 w-4 text-[#384f16] fill-[#384f16]' />
+                    <Star className='h-4 w-4 text-[#384f16] fill-[#384f16]' />
+                    <Star className='h-4 w-4 text-[#384f16] fill-[#384f16]' />
+                    <Star className='h-4 w-4 text-[#384f16] fill-[#384f16]' />
                   </div>
 
                   <p>
@@ -105,14 +105,9 @@ export default async function Home() {
             </div>
           </div>
 
-          {/* <div className='col-span-full lg:col-span-1 w-full flex justify-center px-8 sm:px-16 md:px-0 mt-32 lg:mx-0 lg:mt-20 h-fit'>
-            <div className='relative md:max-w-xl'>
-              <img
-                src='/your-image.png'
-                className='absolute w-40 lg:w-52 left-56 -top-20 select-none hidden sm:block lg:hidden xl:block'
-                alt="your image"/> 
-            </div>
-          </div> */}
+          <div className="py-6 md:py-2">
+          <img src='/snake-1.jpg' className='w-fit h-fit rounded-lg  md:rounded-3xl bg-inherit' alt="soaps" width="100" height="100"/> 
+          </div> 
         </MaxWidthWrapper>
       </section>
 
@@ -157,21 +152,18 @@ export default async function Home() {
           <div className='mx-auto grid max-w-2xl grid-cols-1 px-4 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-y-16'>
             <div className='flex flex-auto flex-col gap-4 lg:pr-8 xl:pr-20'>
               <div className='flex gap-0.5 mb-2'>
-                <Star className='h-5 w-5 text-green-600 fill-green-600' />
-                <Star className='h-5 w-5 text-green-600 fill-green-600' />
-                <Star className='h-5 w-5 text-green-600 fill-green-600' />
-                <Star className='h-5 w-5 text-green-600 fill-green-600' />
-                <Star className='h-5 w-5 text-green-600 fill-green-600' />
+                <Star className='h-5 w-5 text-[#384f16] fill-[#384f16]' />
+                <Star className='h-5 w-5 text-[#384f16] fill-[#384f16]' />
+                <Star className='h-5 w-5 text-[#384f16] fill-[#384f16]' />
+                <Star className='h-5 w-5 text-[#384f16] fill-[#384f16]' />
+                <Star className='h-5 w-5 text-[#384f16] fill-[#384f16]' />
               </div>
               <div className='text-lg leading-8'>
                 <p>
-                &#34;The case feels durable and I even got a compliment on the
-                  design. Had the case for two and a half months now and{' '}
-                  <span className='p-0.5 bg-slate-800 text-white'>
-                    the image is super clear
-                  </span>
-                  , on the case I had before, the image started fading into
-                  yellow-ish color after a couple weeks. Love it.&#34;
+                &#34;I have to say these are {' '}
+                <span className='p-0.5 bg-slate-800 text-white'> the best soaps 
+                  I have ever purchased!{' '}
+                  </span> I bought all of them and each one of them gave amazing result. I suffer from severe dryness and I couldn't find soap that was purely organic. It kept my skin hydrated and fresh. So yes highly recommended &#34;
                 </p>
               </div>
               <div className='flex gap-4 mt-2'>
@@ -181,9 +173,9 @@ export default async function Home() {
                   alt='user'
                 /> */}
                 <div className='flex flex-col'>
-                  <p className='font-semibold'>Jonathan</p>
+                  {/* <p className='font-semibold'>Jonathan</p> */}
                   <div className='flex gap-1.5 items-center text-zinc-600'>
-                    <Check className='h-4 w-4 stroke-[3px] text-green-600' />
+                    <Check className='h-4 w-4 stroke-[3px] text-[#384f16]' />
                     <p className='text-sm'>Verified Purchase</p>
                   </div>
                 </div>
@@ -193,22 +185,17 @@ export default async function Home() {
             {/* second user review */}
             <div className='flex flex-auto flex-col gap-4 lg:pr-8 xl:pr-20'>
               <div className='flex gap-0.5 mb-2'>
-                <Star className='h-5 w-5 text-green-600 fill-green-600' />
-                <Star className='h-5 w-5 text-green-600 fill-green-600' />
-                <Star className='h-5 w-5 text-green-600 fill-green-600' />
-                <Star className='h-5 w-5 text-green-600 fill-green-600' />
-                <Star className='h-5 w-5 text-green-600 fill-green-600' />
+              <Star className='h-5 w-5 text-[#384f16] fill-[#384f16]' />
+                <Star className='h-5 w-5 text-[#384f16] fill-[#384f16]' />
+                <Star className='h-5 w-5 text-[#384f16] fill-[#384f16]' />
+                <Star className='h-5 w-5 text-[#384f16] fill-[#384f16]' />
+                <Star className='h-5 w-5 text-[#384f16] fill-[#384f16]' />
               </div>
               <div className='text-lg leading-8'>
                 <p>
-                &#34;I usually keep my phone together with my keys in my pocket
-                  and that led to some pretty heavy scratchmarks on all of my
-                  last phone cases. This one, besides a barely noticeable
-                  scratch on the corner,{' '}
-                  <span className='p-0.5 bg-slate-800 text-white'>
-                    looks brand new after about half a year
-                  </span>
-                  . I dig it.&#34;
+                &#34;It's really worth trying. {' '}
+                <span className='p-0.5 bg-slate-800 text-white'> Very little soap is needed to form lather {' '}
+                </span> that rids your hands of food smells in a jiffy. I have tried it and found it quite amazing.&#34;
                 </p>
               </div>
               <div className='flex gap-4 mt-2'>
@@ -218,9 +205,9 @@ export default async function Home() {
                   alt='user'
                 /> */}
                 <div className='flex flex-col'>
-                  <p className='font-semibold'>Josh</p>
+                  {/* <p className='font-semibold'>Josh</p> */}
                   <div className='flex gap-1.5 items-center text-zinc-600'>
-                    <Check className='h-4 w-4 stroke-[3px] text-green-600' />
+                    <Check className='h-4 w-4 stroke-[3px] text-[#384f16]' />
                     <p className='text-sm'>Verified Purchase</p>
                   </div>
                 </div>

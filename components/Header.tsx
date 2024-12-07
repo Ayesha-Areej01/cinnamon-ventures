@@ -50,7 +50,7 @@ function Header() {
         <div className="flex items-center space-x-4 mt-4 sm:mt-0 flex-1 sm:flex-none">
           <Link
             href="/basket"
-            className="flex-1 relative flex justify-center sm:jutify-start sm:flex-none items-center bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+            className="flex-1 relative flex justify-center sm:jutify-start sm:flex-none items-center bg-[#587927] hover:bg-[#384f16] text-white font-bold py-2 px-4 rounded"
           >
           <TrolleyIcon className="w-6 h-6" />
           <span className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">{itemCount}</span>
@@ -60,7 +60,7 @@ function Header() {
             <SignedIn>
                 <Link 
                 href="/orders"
-                className="flex-1 relative flex justify-center sm:jutify-start sm:flex-none items-center bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+                className="flex-1 relative flex justify-center sm:jutify-start sm:flex-none items-center bg-[#587927] hover:bg-[#384f16] text-white font-bold py-2 px-4 rounded"
                 >
                     <PackageIcon className="w-6 h-6" />
                     <span>My Orders</span>

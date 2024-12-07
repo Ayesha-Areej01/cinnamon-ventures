@@ -70,8 +70,8 @@ const Contact = () => {
   return (
     // <section className="c-space my-20 mb-20 bg-[#DA8359] object-cover" id="contact">
 
-    <MaxWidthWrapper className="flex flex-col items-center gap-16 sm:gap-32 selection:bg-[#eacfa7]">
-    <section className="bg-[#DA8359] object-cover flex flex-col" id="contact">
+    <MaxWidthWrapper className="flex flex-col items-center gap-16 sm:gap-32 selection:bg-[#ECDFCC]">
+    <section className="object-cover flex flex-col" id="contact">
       <h2 className="order-2 mt-6 text-center text-balance !leading-tight font-bold text-5xl md:text-6xl text-gray-900">
         Contact Us
       </h2>
