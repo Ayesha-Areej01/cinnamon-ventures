@@ -1010,6 +1010,23 @@
           "type": "number"
         },
         "optional": true
+      },
+      "vehicle": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "union",
+          "of": [
+            {
+              "type": "string",
+              "value": "car"
+            },
+            {
+              "type": "string",
+              "value": "bicycle"
+            }
+          ]
+        },
+        "optional": true
       }
     }
   },

@@ -163,7 +163,7 @@ export default async function Home() {
                 &#34;I have to say these are {' '}
                 <span className='p-0.5 bg-slate-800 text-white'> the best soaps 
                   I have ever purchased!{' '}
-                  </span> I bought all of them and each one of them gave amazing result. I suffer from severe dryness and I couldn't find soap that was purely organic. It kept my skin hydrated and fresh. So yes highly recommended &#34;
+                  </span> I suffer from severe dryness and I couldn't find soap that was purely organic. It kept my skin hydrated and fresh. So yes highly recommended &#34;
                 </p>
               </div>
               <div className='flex gap-4 mt-2'>

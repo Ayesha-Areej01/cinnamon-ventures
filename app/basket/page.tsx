@@ -64,7 +64,7 @@ function BasketPage() {
     // console.log("BASKET CONTENTS", groupedItems);
   return (
     <div className="container mx-auto p-4 max-w-6xl">
-        <h1 className="text-2xl font-bold mb-4">Your Basket</h1>
+        <h1 className="text-2xl font-bold mb-4">Your Cart</h1>
         <div className="flex flex-col lg:flex-row gap-8">
             <div className="flex-grow">
                 {groupedItems?.map((item) => (
@@ -86,7 +86,7 @@ function BasketPage() {
                         <div className="min-w-0">
                         <h2 className="text-lg sm:text-xl font-semibold truncate">{item.product.name}</h2>
                         <p className="text-sm: sm:text-base">
-                            Price: Rs. {((item.product.price ?? 0) * item.quantity).toFixed(2)}
+                            Price: Rs. {((item.product.price?.toFixed(2)))}
                         </p>
                         </div>
                         </div>
@@ -97,7 +97,7 @@ function BasketPage() {
                 ))}
             </div>
 
-            <div className="w-full lg:w-80 lg:sticky lg:top-4 h-fit bg-white p-6 border rounded order-first lg:order-last fixed mb-0 bottom-0 left-0 lg:left-auto ">
+            <div className="w-full lg:w-80 lg:sticky lg:top-4 h-fit bg-white p-6 border rounded order-first lg:order-last mb-0 bottom-0 left-0 lg:left-auto">
                 <h3 className="text-xl font-semibold">Order Summary</h3>
                 <div className="mt-4 space-y-2">
                     <p className="flex justify-between">
@@ -109,32 +109,25 @@ function BasketPage() {
                     <p className="flex justify-between text-2xl font-bold border-t pt-2">
                         <span>Total: </span>
                         <span>
-                            Rs. {useBasketStore.getState().getTotalPrice().toFixed(2)}
-                        </span>
+    Rs. {useBasketStore.getState().getTotalPrice().toFixed(2)}
+</span>
                     </p>
                 </div>
                 
 
-                {isSignedIn ? (
+                
                     <button
                     onClick={handleCheckout}
                     disabled={isLoading}
-                    className="mt-4 w-full bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 disabled:bg-gray-400">
+                    className="mt-4 w-full bg-[#587927] text-white px-4 py-2 rounded hover:bg-[#384f16]  disabled:bg-gray-400">
                         {isLoading 
                         ? "Processing..." 
                         : "Checkout"}
                     </button>
-                ) : (
-                    <SignInButton mode="modal">
-                        <button
-                        className="mt-4 w-full bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
-                            Sign in to checkout
-                        </button>
-                    </SignInButton>
-                )}
+                
             </div>
 
-            <div className="h-64 lg:h-0"></div>
+            <div className="h-80"></div>
         </div>
     </div>
   )
